@@ -41,3 +41,15 @@ function totalItems(){
 }
 console.log(totalItems());
 
+// Write a function to find the item with the lowest stock quantity.
+function lowestQuantity(groceriesQuantity){
+    let lowQuantity=0;
+    for(let i=0; i<groceriesQuantity;i++){
+        if(groceriesQuantity[i]<lowQuantity){
+            
+        }
+        return groceriesQuantity[i];
+    }
+   
+}
+console.log(lowestQuantity(groceriesArray));
